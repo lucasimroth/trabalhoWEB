@@ -6,6 +6,23 @@ body {
     padding: 0;
 }
 
+/* Estilos para a barra de navegação */
+ul {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom, #072669, #0346ff); /* Gradiente de fundo */
+}
+
+li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+}
+
 
 /* Estilos para a seção principal */
 main {
@@ -30,13 +47,13 @@ td, th{
     text-align: center;
 }
 
-.superior {
-    color: white;
-}
-
 h1 {
     color: white; /* Cor do título */
     font-size: 24px;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
+}
+
+.superior { /* Cor da parte superior do formulario */
+    color: white;
 }
