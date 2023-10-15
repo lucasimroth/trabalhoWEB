@@ -1,7 +1,7 @@
 /* Definindo estilos para o corpo da página */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('fundo.jpg'); /* Define uma imagem de fundo */
+    background-image: url('fundo-site.jpg'); /* Define uma imagem de fundo */
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ ul {
     margin: 0;
     height: 50px;
     font-weight: bold;
-    background-image: linear-gradient(to bottom, #072669, #0346ff); /* Gradiente de fundo */
+    background-image: linear-gradient(to bottom, #000000, #000000); /* Gradiente de fundo */
 }
 
 li {
@@ -33,7 +33,7 @@ main {
 }
 
 h1 {
-    color: #333; /* Cor do título */
+    color: #f5f5f5; /* Cor do título */
     font-size: 24px;
     text-align: center;
 }
@@ -56,7 +56,7 @@ input, select {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 10px;
-    border: 1px solid #6d8cf1;
+    border: 1px solid #000000;
     border-radius: 5px;
     margin: 5px;
 }
