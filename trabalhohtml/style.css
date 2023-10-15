@@ -5,16 +5,39 @@ body{
 
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: "header header header" " main main sidebar" "footer footer footer";
+}
+.nome{
+    justify-content: left;
+}
+
+header{
+    grid-area: header;
+    padding: 20px;
+}
+
 ul{
+    text-align: right;
+    text-decoration: none;
     align-items: center;
+    list-style: none;
     display: flex;
-    margin: 0;
-    height: 50px;
+    justify-content: center;
+    margin: 10px;
+    height: 70px;
     font-weight: bold;
-    background-image: linear-gradient(to bottom, #072669, #0346ff);
+    background-color: rgb(53, 100, 252);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
 }
 li{
-    display: inline-block;
     color:rgb(255, 255, 255);
-    padding: 0px 10px;
+    padding: 0px 20px;
+}
+
+footer{
+    grid-area: footer;
 }
