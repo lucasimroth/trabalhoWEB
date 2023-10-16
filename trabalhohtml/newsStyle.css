@@ -82,3 +82,25 @@ form [type="submit"]{
     color: rgb(134, 14, 201);
     font-weight: bold;
 }
+footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: rgb(52, 52, 54);
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    width: calc(100% - 40px);
+    height: 110px;
+}
+footer li, #cnpj, #copy{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+}
