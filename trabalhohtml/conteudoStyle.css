@@ -21,9 +21,6 @@ main{
 }
 
 .noticeBlock{
-	@media screen and (max-width: 485px) {
-		font-size: .65em;
-	}
 	color: white;
 	padding-left: 15px;
 	display: flex;
@@ -44,8 +41,6 @@ main{
 	padding-right: 15px;
 	display: inline-block;
 	max-width: 1450px;
-	margin-left: auto;
-  	margin-right: auto;
 }
 
 /*Quatro elementos*/
@@ -53,9 +48,8 @@ main{
 	padding-left: 15px;
 	padding-right: 15px;
 	display: inline-block;
-	max-width: 640px;
-	margin-left: auto;
-  	margin-right: auto;
+	max-width: 1020px;
+
 }
 
 .textMargin{
@@ -63,9 +57,24 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@media (orientation: portrait) {
+  item {
+  	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  itemTwo {
+  	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  noticeBlock{
+  	font-size: .65em;
+  }
+}
+
 img{
 	padding-top: 10px;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
 }
