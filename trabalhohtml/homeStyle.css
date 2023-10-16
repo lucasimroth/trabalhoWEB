@@ -1,0 +1,14 @@
+main{
+    grid-area: main;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    background-color: rgb(236, 236, 241);
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+    border-radius: 10px;
+}
+
+.imagens1{
+    display: inline;
+    padding: 25px;
+}
