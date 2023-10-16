@@ -9,6 +9,13 @@ main{
 }
 
 .imagens1{
-    display: inline;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+main .St, .Jp, .Rm, li{
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
 }
