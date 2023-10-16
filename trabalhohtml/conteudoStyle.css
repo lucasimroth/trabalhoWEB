@@ -1,0 +1,63 @@
+main{
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+    grid-area: main;
+    display: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(236, 236, 241);
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+    border-radius: 10px;
+}
+
+.notice{
+	padding-top: 20px;
+	text-align: right;
+	align-self: center;
+}
+
+.noticeBock{
+	color: white;
+	padding-left: 15px;
+	display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+	background-color: rgb(150, 130, 150);
+	border-radius: 10px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Dois elementos*/
+.item{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	max-width: 1450px;
+}
+
+/*Quatro elementos*/
+.itemTwo{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	max-width: 640px;
+}
+
+.textMargin{
+	padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
