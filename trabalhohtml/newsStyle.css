@@ -2,12 +2,10 @@ body{
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
 }
 header{
-    grid-area: header;
     display: flex;
     align-items: center;
     margin: 20px;
@@ -15,6 +13,7 @@ header{
     background-color: rgb(52, 52, 54);
     box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
     border-radius: 10px;
+    
 }
 header h1{
     margin-left: 70px;
@@ -28,21 +27,15 @@ header a:hover{
 }
 header nav, ul, li{
     display: inline-block;
-    padding: 25px;
+    padding: 10px;
     list-style: none;
     font-weight: bold;
 }
 header nav, ul, li, a{
     color:rgb(255, 255, 255);
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 20px;
 }
-
-#titulo{
-    flex-direction: column;
-    line-height: 10px;
-}
-
 main{
     display: flex;
     flex-direction: row;
@@ -51,19 +44,25 @@ main{
 h2{
     font-size: 50px;
     line-height: 10px;
+    margin-left: 30px
 }
 p{
     line-height: 20px;
+    width: 70%;
+    text-align: justify;
+    margin-left: 30px;
 }
 img{
     border-radius: 20px;
     padding: 10px;
+    margin-right: 30px;
 }
 form{
     display: flex;
     flex-direction: column;
     width: 70%;
     margin-top: 20px;
+    margin-left: 30px
 }
 input{
     margin-top: 20px;
@@ -73,11 +72,7 @@ input{
     border: none;
 }
 form [type="submit"]{
-    width: 50%;
     height: 40px;
     color: rgb(134, 14, 201);
     font-weight: bold;
-}
-p{
-    text-align: justify;
 }
