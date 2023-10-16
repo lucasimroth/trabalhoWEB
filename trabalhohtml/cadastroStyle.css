@@ -6,22 +6,6 @@ body {
     padding: 0;
 }
 
-/* Estilos para a barra de navegação */
-ul {
-    align-items: center;
-    display: flex;
-    margin: 0;
-    height: 50px;
-    font-weight: bold;
-    background-image: linear-gradient(to bottom, #000000, #000000); /* Gradiente de fundo */
-}
-
-li {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    padding: 0px 10px;
-}
-
 /* Estilos para a seção principal */
 main {
     width: 60%;
@@ -30,21 +14,23 @@ main {
     background-color: #fff; /* Fundo branco */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+    justify-content: center;
 }
 
-h1 {
+main h1 {
     color: #000000; /* Cor do título */
     font-size: 24px;
     text-align: center;
 }
 
-p {
+main p {
     color: #666; /* Cor do texto do parágrafo */
     font-size: 16px;
 }
 
 /* Estilos para o formulário */
-form {
+main form {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -52,7 +38,7 @@ form {
 }
 
 /* Estilos para inputs e selects no formulário */
-input, select {
+main input, select {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 10px;
@@ -62,24 +48,24 @@ input, select {
 }
 
 /* Estilos para campos específicos no formulário */
-#nome, #email, #Cemail, #endereco {
+main #nome, #email, #Cemail, #endereco {
     flex-basis: 800px;
 }
 
-#senha, #confirma, #telefone, #endereco {
+main #senha, #confirma, #telefone, #endereco {
     flex-basis: 300px;
 }
 
-#cidade, #estado, #cep {
+main #cidade, #estado, #cep {
     flex-basis: 200px;
 }
 
-#data, #cpf {
+main #data, #cpf {
     flex-basis: 100px;
 }
 
 /* Estilos para botões no formulário */
-button {
+main button {
     flex-grow: 1;
     background-color: #007bff; /* Cor de fundo azul para botões */
     color: #fff; /* Cor do texto branco */
@@ -90,20 +76,20 @@ button {
 }
 
 /* Estilos para botão "Limpar" (reset) */
-button[type="reset"] {
+main button[type="reset"] {
     background-color: #61fa3b; /* Cor de fundo verde para botão de reset */
 }
 
 /* Estilos para botão "Enviar" (submit) */
-button[type="submit"] {
+main button[type="submit"] {
     background-color: #3ab4fa; /* Cor de fundo azul claro para botão de envio */
 }
 
 /* Efeitos de hover nos botões */
-button:hover {
+main button:hover {
     background-color: #0056b3; /* Cor de fundo azul mais escura no hover */
 }
 
-button[type="reset"]:hover {
+main button[type="reset"]:hover {
     background-color: #75f70b; /* Cor de fundo verde mais brilhante no hover */
 }
