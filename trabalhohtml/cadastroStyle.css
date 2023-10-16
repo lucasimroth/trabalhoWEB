@@ -15,7 +15,6 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
-    justify-content: center;
 }
 
 main h1 {
