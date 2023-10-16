@@ -7,33 +7,46 @@ body{
     padding: 10px;
 }
 header{
+    grid-area: header;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: rgb(52, 52, 54);
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+    border-radius: 10px;
 }
+header h1{
+    margin-left: 70px;
+    color: white;
+    text-shadow: 5px 5px 3px rgba(134, 14, 201, 0.5);
+}
+header a:hover{
+    border: solid rgb(134, 14, 201);
+    transition: 0.3s all;
+    border-radius: 5px;
+}
+header nav, ul, li{
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+header nav, ul, li, a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
 #titulo{
     flex-direction: column;
     line-height: 10px;
 }
-li{
-    display: inline-block;
-    margin: 5px;
-    padding: 10px;
-    color: aliceblue;
-}
-a:hover{
-    border: solid rgb(134, 14, 201);
-    transition: 0.3s all;
-}
-h1{
-    font-weight: 200;
-    
-}
+
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 h2{
     font-size: 50px;
