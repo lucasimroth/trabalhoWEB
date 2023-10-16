@@ -4,11 +4,13 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="relatorioStyle.css">
+    <link rel="stylesheet" href="./base.css">
     <title>Nerdtopia</title>
     <title>Exercício Tabelas</title>
 </head>
 <body>
     <header>
+        <h1>Relatório dos Cadastros</h1> <!-- Titulo -->
         <nav>
             <ul>
                 <a href="index.html"><li>Home</li></a> <!-- Links para outras páginas -->
@@ -19,20 +21,17 @@
                 <a href="./newsletter.html">New Letter<li>Grid</li></a>
             </ul>
         </nav>
-        <h1>Relatório dos Cadastros</h1> <!-- Titulo -->
-        <div style="font-size:0;">
-        </div>
     </header>
     <main>
         <section>
             <table>
                 <thead class="superior">
-                    <tr bgcolor="3F7ACF"> <!-- Inicio dos Relatorios -->
+                    <tr class="primeiraLinhaTable"> <!-- Inicio dos Relatorios -->
                         <!-- Parte superior das colunas -->
                         <th colspan="7">Dados Pessoais</th>
                         <th colspan="8">Endereço</th>
                     </tr>
-                    <tr bgcolor="66A1F7"> <!-- Seperando a parte referente ao endereço -->
+                    <tr class="segundaLinhaTable"> <!-- Seperando a parte referente ao endereço -->
                         <th>Nome</th>
                         <th>Sobrenome</th>
                         <th>CPF</th>
@@ -654,6 +653,12 @@
         </section>
 </main>
 <footer>
+    <ul>
+        <li>
+            <p class="cnpj">Lorem programação LTDA | CNPJ: 00.001.011/0111-10</p> <br>
+            <p class="copy">todos os direitos reservados &copy;2023</p>
+        </li>
+    </ul>
 </footer>
 <br><br>
 </body>
