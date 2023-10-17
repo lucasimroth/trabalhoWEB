@@ -66,3 +66,9 @@ main h1 {
 .segundaLinhaTable{
     background-color: rgb(115, 115, 121);
 }
+
+@media (max-width: 780px) {
+    main td, th{
+        font-size: 12px;
+    }    
+}

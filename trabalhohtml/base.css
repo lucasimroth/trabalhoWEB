@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: 150px auto 110px;
     grid-template-areas: "header header header" " main main main" "footer footer footer";
 }
@@ -43,9 +43,9 @@ header nav, ul, li, a{
 
 main{
     grid-area: main;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
     padding: 5px;
 }
 
@@ -63,11 +63,34 @@ footer{
     width: calc(100% - 40px);
     height: 110px;
 }
-footer li, p{
-    color: black;
+footer li{
+    color: rgb(255, 255, 255);
     display: inline-block;
     list-style: none;
     text-decoration: none;
     text-align: center;
     padding: 2px;
+}
+
+@media (max-width: 1100px) {
+    header{
+        justify-content: none;
+        font-size: 70%;
+    }
+    header nav, ul, li{
+        display: flex;
+    }
+}
+
+@media (max-width: 412px) {
+    header{
+    grid-area: header;
+    flex-direction: column;
+    display: block;
+    align-items: none;
+    font-size: 50%;
+    }
+    header nav, ul, li{
+        display: flex;
+    }
 }

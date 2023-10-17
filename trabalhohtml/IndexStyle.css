@@ -2,25 +2,41 @@ main{
     grid-area: main;
     align-items: center;
     justify-content: center;
+    color: black;
     margin: 20px;
     background-color: rgb(236, 236, 241);
     box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
     border-radius: 10px;
 }
 
-.primeiraSecao{
+main .primeiraSecao{
     float: center;
     padding-left: 50px;
 }
 
 .imagens1{
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
 main .St, .Jp, .Rm, p{
     color: black;
     margin: 10px;
+}
+
+.segundaSecao{
+    display: flex;
+    align-items: center;
+}
+
+main .item{
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 10px 20px;
+    padding-left: 40px;
+    margin: 5px auto;
+}
+
+footer p{
+    color: white;
 }
