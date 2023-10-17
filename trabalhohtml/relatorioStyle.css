@@ -32,6 +32,7 @@ main {
     background-color: #fff; /* Fundo branco */
     box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
     border-radius: 2px;
+    overflow-x: auto; /* Deixa a tabela mais responsiva */
 }
 
 main table{
