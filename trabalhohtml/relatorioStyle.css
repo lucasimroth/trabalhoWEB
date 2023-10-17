@@ -32,6 +32,7 @@ main {
     background-color: #fff; /* Fundo branco */
     box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
     border-radius: 2px;
+    overflow-x: auto;
 }
 
 main table{
@@ -66,8 +67,3 @@ main h1 {
     background-color: rgb(115, 115, 121);
 }
 
-@media (max-width: 780px) {
-    main td, th{
-        font-size: 12px;
-    }    
-}
